@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(rgb(200, 226, 253),rgb(247, 156, 189)50%,rgb(248, 150, 173),rgb(246,150,183),white );
+    background-repeat: no-repeat;
+}
+#navbar{
+    margin-top: 10px;
+    border: 2px solid whitesmoke;
+    background-color:cadetblue;
+     display: flex;
+    justify-content: space-evenly; 
+    width: 99%;
+    color: #f2f2f2;
+    text-align: center;
+    height: 45px;
+    font-size: 27px;
+    box-shadow: 2px 2px whitesmoke;
+}
+#navbar :hover {
+    background-color: #ddd;
+    color: black;
+}
+#table{
+    width:50%;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+table,th,td{
+    /* border: 2px solid red; */
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+th,td{
+    padding: 15px;
+}
+#add{
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 105px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+#text{
+    width:120px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+#text1{
+    margin-left:10px;
+    width:120px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+#text2{
+    width:120px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+#text3{
+    width:120px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+#submit{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 100px;
+    height: 32px;
+    margin-top: 35px;
+    color: white;
+    font-size: larger;
+    background-color: chocolate;
+}
